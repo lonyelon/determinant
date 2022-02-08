@@ -1,0 +1,15 @@
+[package]
+name = "determinant"
+version = "0.1.0"
+authors = ["Sergio Miguéns Iglesias <sergio@lony.xyz>"]
+edition = "2018"
+
+[dependencies]
+curl = "0.4.38"
+json = "0.12.4"
+crossterm = "0.21.0"
+
+[dependencies.tui]
+version = "0.16.0"
+default-features = false
+features = ["crossterm"]
